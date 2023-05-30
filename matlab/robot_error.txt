@@ -1,0 +1,4 @@
+Constrained Instances: 'WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1', 'WMmain'
+Constraint Name: Coincident22
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/22/23||16:02:21" using="Simscape Multibody Link Version 7.0" from="SolidWorks 30.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="WMmain" uid="WMmain" version="1706">
+<AssemblyFile name="WMmain.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK5_CAD_rev02*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 5.4366913486035897e-16 -1.3673826936306803e-16 1.3673826936307247e-16 -3.3741077400948356e-15 1 5.4366913486035878e-16 -1.0000000000000002 -3.3741077400948403e-15</Rotation>
+<Translation>1.9879910656429627 0.079999999890751614 0.59500172433873422</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK1_CAD_rev02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -7.9332575463180577e-16 0.23000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_LINK6_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK6_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK6_CAD_rev02*:*Default">
+<Transform>
+<Rotation>-3.6282196082062065e-15 -5.4366913486036164e-16 1 1 0 3.6282196082062065e-15 0 1 5.4366913486035809e-16</Rotation>
+<Translation>2.1869999997815044 -1.0925471543074939e-10 0.59499999999377606</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK2_CAD_rev02*:*Default">
+<Transform>
+<Rotation>0 -1 -2.6642477089239778e-15 3.6116885098577664e-15 -2.6642477089239778e-15 1 -1 0 3.6116885098577664e-15</Rotation>
+<Translation>0.15000000000000041 -0.14040000000000274 0.44499999999999951</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1" uid="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1" entityUid="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK3_CAD_rev02*:*Default">
+<Transform>
+<Rotation>1 1.9255430583342559e-16 4.2966805818727646e-15 -4.2966805818727638e-15 1.2020717101463186e-16 1 1.9255430583342559e-16 -1 1.2020717101463305e-16</Rotation>
+<Translation>1.0499999999999865 -0.15000000000000668 0.44499999999995771</Translation>
+</Transform>
+</Instance>
+<Instance name="WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1" uid="WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1" entityUid="WMIRB2600ID_8kg-200_LINK4_CAD_rev02*:*Default">
+<Transform>
+<Rotation>-3.4278974681134123e-15 4.3761461047083706e-15 1 0 1.0000000000000002 -4.3761461047083698e-15 -1.0000000000000002 0 -3.4278974681134139e-15</Rotation>
+<Translation>1.2880000000000011 3.0129902530247773e-06 0.59500012025734694</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.18981074990615449</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 0 -4.163336342344337e-16</Position>
+<Axis>0 -3.5958640473689304e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.15000000000000005 -0.14040000000000205 0.21499999999999961</Position>
+<Axis>-4.0839105417782751e-15 -1 -3.611584197949055e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0</Position>
+<Axis>0 -6.9829646999525186e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.15000000000000005 -0.14040000000000205 0.21499999999999961</Position>
+<Axis>-4.1426232262132701e-15 -1 -3.6115841979490605e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0</Position>
+<Axis>0 6.8055799198137535e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 -0.8999999999999998 -0.004600000000006349</Position>
+<Axis>0 -6.9829646999525186e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>1.3766765505351941e-14 -4.1744385725905886e-14 0.0050000000000000044</Position>
+<Axis>0 3.4914813388431337e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK2_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 -0.8999999999999998 -0.004600000000006349</Position>
+<Axis>0 6.9609282907967444e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>1.3766765505351941e-14 -4.1744385725905886e-14 0.0050000000000000044</Position>
+<Axis>0 3.4914813388431337e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.23800000000001376 -0.15000000000004243 0.14999999999999947</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>1.2025734652532094e-07 -3.0159370012232e-06 0</Position>
+<Axis>3.4914813388431326e-15 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK3_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.24000000000001398 -0.15000000000004243 0.14999999999999944</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>1.2025734597020943e-07 -3.0129902593423132e-06 0.16064999999999996</Position>
+<Axis>3.4914813388431326e-15 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.030000120257344332 0.079996986900492784 0.66999999999999993</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>8.9342477904708062e-06 1.7243387342436023e-06 0</Position>
+<Axis>0 -3.4914813388431294e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK4_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>1.2025734419385259e-07 0.080996986900492784 0.69999999989075179</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>8.9342477904708062e-06 1.7243387343546246e-06 -0.021999999999999957</Position>
+<Axis>0 -3.4914813388431294e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.18950893413854275 1.7243449587089899e-06 -0.079999999999999946</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK6_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010499999999999954</Position>
+<Axis>3.4914813388431334e-15 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK5_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0.18100893413854258 0.052578234338734875 -0.13257651489999975</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK6_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>-0.035000000000001856 -2.2204460492503131e-16 -0.017999999999999794</Position>
+<Axis>3.6139460187578685e-15 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Coincident22">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>WMmain</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_BASE_CAD_rev02.step-1</Uid>
+</InstancePath>
+<Position>0 -1.4503530438997801e-15 0.23000000000000001</Position>
+<Axis>-1.3268256730304419e-16 -3.3732501469481e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WMIRB2600ID_8kg-200_LINK1_CAD_rev02-1</Uid>
+</InstancePath>
+<Position>0 -0.12349999999999926 -4.163336342344337e-16</Position>
+<Axis>0 3.4914833611093852e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step" uid="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>31.909250669420949</Mass>
+<CenterOfMass>-0.092992592310123703 0.00039982632167083113 0.095902183447266365</CenterOfMass>
+<Inertia>0.42144722253703248 0.86967590352809343 1.0969520053817028 0.00027886159279106991 0.022989395443863626 0.0037819463096398134</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_BASE_CAD_rev02.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK1_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK1_CAD_rev02*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK1_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.921348644584612</Mass>
+<CenterOfMass>0.043008803588163641 0.0069642774461864988 0.159697744318478</CenterOfMass>
+<Inertia>0.39523628243493331 0.60473412435727192 0.5726703886454656 -0.0058783859545207878 -0.041470347477288637 -0.0094004807475321309</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK1_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK2_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK2_CAD_rev02*:*Default" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK2_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>15.755251198295333</Mass>
+<CenterOfMass>6.021068857454094e-05 -0.41390545620735064 -0.032046785724551809</CenterOfMass>
+<Inertia>1.1040678025160915 0.048315917167664056 1.1234388313048342 -0.0058922686415163643 5.1919485842142623e-07 -0.0002551427147893014</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK2_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK3_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK3_CAD_rev02*:*Default" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK3_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>20.27019717790246</Mass>
+<CenterOfMass>0.057083526279976038 -0.054466587220477591 0.1796833848596025</CenterOfMass>
+<Inertia>0.2724897843432097 0.27316441412632469 0.29344470122812233 0.007187086875179367 0.007812505226757499 0.061434461568090425</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK3_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK4_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK4_CAD_rev02*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK4_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>10.545184561653148</Mass>
+<CenterOfMass>0.0018705419358667676 0.087299294932591656 0.3143933277248544</CenterOfMass>
+<Inertia>0.53519177502859361 0.52269936994127486 0.03962894735516842 -0.052881556116297385 0.0018668153538570213 -0.00032615672751968563</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK4_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99607843137254903" g="0" b="0" a="1"/>
+<Diffuse r="0.99607843137254903" g="0" b="0" a="1"/>
+<Specular r="0.49803921568627452" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK5_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK5_CAD_rev02*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK5_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0432628348711006</Mass>
+<CenterOfMass>0.092717844037731242 -0.00070227019308243704 -0.052324084258081272</CenterOfMass>
+<Inertia>0.0020788191193147508 0.0060324230401072937 0.0056992332770333829 6.4025736294209257e-06 0.001444785086799508 -4.3368048329748375e-05</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK5_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMIRB2600ID_8kg-200_LINK6_CAD_rev02" uid="WMIRB2600ID_8kg-200_LINK6_CAD_rev02*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMIRB2600ID_8kg-200_LINK6_CAD_rev02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.076698085277365519</Mass>
+<CenterOfMass>0.00041806852245386658 -0.00020055909938259899 -0.0079238151259722056</CenterOfMass>
+<Inertia>6.5747239550965848e-05 6.514132843074925e-05 0.00012710736511235534 6.0504060574553218e-09 -4.5517283789031742e-08 -2.557063867096762e-07</Inertia>
+</MassProperties>
+<GeometryFile name="WMIRB2600ID_8kg-200_LINK6_CAD_rev02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

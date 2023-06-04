@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: welding_robot
+    relative_path: urdf/welding_robot.urdf.xacro
+  srdf:
+    relative_path: config/welding_robot.srdf
+  package_settings:
+    author_name: lvquang
+    author_email: levinhquang757@gmail.com
+    generated_timestamp: 1685874699
